@@ -28,5 +28,5 @@ jobs:
     - name: Upload APK as artifact
       uses: actions/upload-artifact@v4
       with:
-        name: release-apk
-        path: mylibrary/build/outputs/aar/mylib.aar
+        name: mylibrary-release
+        path: ./mylibrary/build/outputs/aar/mylibrary-release.aar
